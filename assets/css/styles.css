@@ -373,7 +373,7 @@ img {
   background-color: var(--first-color-alt);
 }
 
-.button_icon{
+.button__icon{
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
   transition: .3s;
@@ -855,9 +855,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .education__container{
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
 }
 
 
@@ -955,6 +953,10 @@ img {
   .edu__img{
     width: 350px;
   }
+
+  .projects__content{
+    grid-template-columns: repeat(2, 1fr);
+  }
   .about__description{
     text-align: initial;
   }
@@ -968,7 +970,7 @@ img {
   }
 
   .projects__content{
-    align-items: center;
+    align-items: ;
   }
 
   .footer__container{
@@ -989,6 +991,9 @@ img {
     margin-top: 4.5rem;
   }
   
+  .education__container{
+    align-items: center;
+  }
 }
 
 
@@ -1033,6 +1038,10 @@ img {
   }
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .education__container{
+    align-items: center;
   }
 
 }
